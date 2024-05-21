@@ -1,6 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); /*write at the top so the font can load from the beginning*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+12&display=swap');
+
+@font-face{
+    font-family: Sarina;
+    src:url(./Users/sarinajoshi/Downloads/Dancing_Script,Jacquard_12,Nunito_Sans 2/Nunito_Sans/static/NunitoSans_7pt_Condensed-ExtraLight.ttf) ;
+}
 body{
     background-color: bisque;
+    background-color: #fff;
+    background-color: rgb(0, 255,0);
+    background: #b07de7;
+    
 }
-.h4{
+.header4{
 background-color: blueviolet;
+background-color: rgba(0, 0, 0, 0.1); /* last one is for opacity */
 }
+.name{
+    font-family: cursive,'Times New Roman', Times;
+    font-weight: 900; /* font bold garna ya faint garna, 900 is bold */
+    font-family: "Dancing Script";
+    padding: 50px;
+    border: 1px solid red;
+    margin: 50px; 
+    text-shadow: 10px 10px 10px red;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color:wheat;
+    overflow: auto;
+}
+#name{
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-family: 'Jacquard+12';
+    font-style: italic;
+    font-size: 50px; /*size badauni gatauni */
+    margin: auto;
+    width: 80%;
+}
+#imgho{
+    float:left;
+    float:right;
+}
+
+/* padding is used to give space inside border.
+ */
+ .sj{
+    font-family: Sarina;
+    font-weight: 900;
+    border-style:dashed;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 1px;
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 0px;
+    
+ }
+ .imground{
+    width: 400px;
+    height: 400px;
+    border-style:dotted ;
+    border-radius: 50%;
+    border-right: 20px solid rgb(19, 3, 19);
+
+ }
+ /* we use shadow to show 3d effect. (horizontal offset,vertical offset, blur, color)
+ text-shadow= paragraph and heading
+ box-shadow= */
