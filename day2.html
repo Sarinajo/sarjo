@@ -11,15 +11,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="day2.css">
   </head>
   <body>
     <!--header starts here-->
-    <header>
+    <header class="headercontainer">
       <div>
         <img
           src="https://www.loopple.com/img/loopple-logo.png"
           alt="loopple-logo"
-          width="90"
+          width="150"
         />
       </div>
       <nav>
@@ -33,7 +34,7 @@
   </body>
   <header>
     <main>
-      <div>
+      <div class="top">
         <h1>A Blog for Passionate People and Website Lovers</h1>
         <p>
           Wealth creation is an evolutionarily recent positive-sum game. Status
@@ -41,9 +42,10 @@
           seeking status.
         </p>
         <!--<button>Read More</button>-->
-        <a href="#">read more</a><br />
+       <button style=" background-color:purple;"> <a href="#" style="color:white;">Read More</a></button>
+       <!-- <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a><br /> -->
       </div>
-      <div>
+      <div class="toprow">
         <div>
           <img
             src="https://images.unsplash.com/photo-1519222970733-f546218fa6d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -102,7 +104,8 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="secondrow">
+        <div>
         <img
           src="https://images.unsplash.com/photo-1524749292158-7540c2494485?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fHdlYnNpdGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
           alt="this is pic"
@@ -135,10 +138,10 @@
           alt="this is pic"
           width="200"
         />
+
         <h2>Lorem ipsum dolor sit amet</h2>
-        <p>
-          https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkyfHx3ZWJzaXRlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60
-        </p>
+        
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, reiciendis.</p>
         <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
       </div>
       <div>
@@ -155,21 +158,9 @@
         </p>
         <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
       </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-          alt="this is pic"
-          width="200"
-        />
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
-          labore pariatur quisquam exercitationem minima repudiandae itaque,
-          animi ipsam laborum rerum!
-        </p>
-        <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
       </div>
-      <div>
+      <div class="thirdrow">
+        <div>
         <div>
           <h2>Lorem ipsum dolor sit amet.</h2>
           <p>
@@ -189,6 +180,21 @@
           <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+            labore pariatur quisquam exercitationem minima repudiandae itaque,
+            animi ipsam laborum rerum!
+          </p>
+          <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="this is pic"
+            width="200"
+          />
           <h2>Lorem ipsum dolor sit amet.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
@@ -199,67 +205,53 @@
         </div>
       </div>
       <footer>
-        <div>
-        <div>
-          <h3>SOFT</h3>
-          <p>The next generation of design systems.</p>
+    
+        <div class="footer-class">
+          <div style="width: 400px;">
+            <h2>SOFT</h2>
+            <P>The next generation og design systems.</P>
+          
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-github"></i>
+      
+          </div>
+          <div >
+            <h2>Company</h2>
+            <div style="display: grid;">
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+            </div>
+            <!-- <p>About Us <br>Careers <br>Press <br>Blog</p> -->
+          </div>
+          <div style="display: grid;">
+            <h2>Pages</h2>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            <a href="#">Add list</a>
+            <a href="#">Contact</a>
+            <!-- <p>Login <br>Register <br>Add list <br>Contact</p> -->
+          </div>
+          <div style="display: grid;">
+            <h2>Legal</h2>
+            <a href="">Terms</a><a href="">About Us</a><a href="">Team</a><a href="">Privacy</a>
+            <!-- <p>Terms <br>About Us <br>Team <br>Privacy</p> -->
+          </div>
+          <div style="display: grid;">
+            <h2>Resources</h2>
+            <a href="">Blog</a><a href="">Service</a><a href="">Product</a><a href="">Pricing</a>
+            <!-- <p>Blog <br>Service <br>Product <br>Pricing</p> -->
+          </div>
         </div>
-        <ul>
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-          </li>
-        </ul>
-        <div>
-          <h3>Company</h3>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
+   
+        <div style="justify-content: center; text-align: center; border-top: 1px solid black;">
+          <p>Copyright © 2022 Soft & Loopple by Creative
+            Tim.</p>
         </div>
-        <div>
-          <h3>Pages</h3>
-          <ul>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">Add List</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Legal</h3>
-          <ul>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Privacy</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Resources</h3>
-          <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Pricing</a></li>
-          </ul>
-        </div>
-      </div>
-        <hr>
-        <div>
-          <p>Copyright &copy;2024 Soft & loopple by Creative Tim.</p>
-        </div>
-    </main>
-  </header>
-</html>
+      </footer>
+    </body>
+    </html>
