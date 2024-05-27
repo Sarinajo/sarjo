@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 5px;
     padding: 5px;
@@ -6,6 +7,17 @@
     display: flex;
     justify-content: space-between;
 }
+.headercontainer{
+    background-color:white;
+    box-shadow: 1px 1px 3px rgb(232, 159, 159);
+}
+.link:hover{
+    border-bottom: 2px solid red;
+}
+.link{
+    color: rgb(173, 89, 192);
+}
+
 .top{
     background-image: url("https://images.unsplash.com/photo-1714779573259-216b0cf746be?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8");
     background-repeat: no-repeat;
@@ -17,18 +29,63 @@
     border-radius: 25px;
     padding: 150px 0 40px 80px;
 }
+
+    mainimg{
+
+    
+        width: 550px;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        color: white;
+   
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
 .top h1{
     color: white;
     font-size: 50px;
+    text-align: left;
+    left: 10%;
+    top: 30%;
+
 }
 .top p{
+    text-align: left;
     font-size: 20px;
     color: white;
 }
 .top a{
+    text-align: justify;
     color: white;
 }
+.helo{
+    text-decoration: none;
+    color: rgb(247, 94, 229);
+    padding: 7px 10px;
+    background-color: rgb(253, 251, 253);
+    border: 2px solid rgb(167, 48, 178);
+    border-radius: 15px;
+    transition: padding 1s ;
+}
+.heloo{
+    text-decoration: none;
+    color: rgb(254, 252, 254);
+    padding: 7px 10px;
+    background-color: rgb(234, 48, 234);
+    border: 2px solid rgb(167, 48, 178);
+    border-radius: 15px;
+    transition: padding 4s ;
+}
+.heloo:hover{
+     padding: 9px 12px; 
+}
 .toprow{
+  justify-content: space-evenly; 
     display: flex;
     padding: 20px;
 }
@@ -36,6 +93,10 @@
     width: 400px;
     height: 250px;
     border-radius: 10%;
+}
+.toprow h2{
+    margin-right: 20px;
+    color: black;
 }
 .secondrow{
     display: flex;
@@ -69,8 +130,9 @@
     text-decoration: none;
 }
 a{
-    text-decoration: none;
+    color: rgb(247, 94, 229);
+    text-decoration:none;
 }
-a:hover{
-    border-bottom: 2px solid black;
+ a:hover{
+    border-bottom: 2px solid rgb(167, 48, 178);
 }
